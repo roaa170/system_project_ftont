@@ -1,0 +1,135 @@
+ body{
+        background-color: #082845;
+        direction: rtl;
+   }
+label{
+    color: white;
+}
+.page{
+    font-size: larger;
+}
+input{
+    border-radius: 10px;
+    padding: 8px;
+    width: 240px;
+    margin-right: 40%;
+
+}
+input[type="search" i] {
+
+    margin: 5px 35% 5%;
+    
+
+}
+
+form div{
+    margin: 2% 2% 2% 25%;
+}
+#select {
+    margin-right: 36%;
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+}
+ .placeCM p {
+    margin: 5px 1px 5px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 70px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #cdebcdd4;
+    display: inline-block;
+}
+.form1search{
+    margin: 5px 1px 5px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 70px;
+    font-size: large ;
+    font-weight: bold;
+    margin-right: 50%;
+    background-color: green;
+}
+.cairo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   /* visibility: hidden;*/
+   display: none ;
+}
+.cairo div img {
+    width: 50px;
+    border-radius: 30%;
+    /* position: relative; */
+}
+.cfirst ,
+.csecond ,
+.cthird , 
+.cfourth{
+    border: solid;
+    padding: 10px;
+    width: 30%;
+    background-color: #c3ced996;
+    border-radius: 10%;
+    border-color: #07467e;
+    font-size: large;
+    margin-bottom: 30px;
+}
+.cfirst:hover ,
+.csecond:hover ,
+.cthird:hover , 
+.cfourth:hover {
+    box-shadow: 1px 1px 10px 6px grey;
+
+    
+}
+.meno{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: none ;
+    
+
+}
+.meno div img {
+    width: 50px;
+    border-radius: 30%;
+    /* position: relative; */
+}
+
+
+
+/* ok */
+.OK{
+    color: white;
+    text-align: center;
+    width: 50%;
+    /* display: flex; */
+    margin: auto;
+    background-color: #AAAD07;
+    padding: 10px;
+    font-size: xx-large;
+    border: solid #527D30 3px;
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    
+    visibility: hidden;
+}
+.OK .On button{
+
+    margin: 5px 1px 5px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 70px;
+    font-size: large;
+    font-weight: bold;
+    /* margin-right: 50%; */
+    background-color: rgba(8, 40, 69, 0.74);  
+      
+   
+}

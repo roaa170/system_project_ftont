@@ -1,0 +1,17 @@
+body{
+    direction: rtl;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+}
+p{
+    font-size: xxx-large;
+    font-weight: bolder;
+    position: relative;
+    right: 90%;
+    /* top: 20%; */
+    /* bottom: 10%; */
+    margin-top: -55%;
+}
